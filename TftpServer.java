@@ -4,7 +4,7 @@
 
     class TftpServerWorker extends Thread {
     private DatagramPacket req;
-    private static final byte RRQ = 1;
+    private static final byte RRQ = 0;
     private static final byte DATA = 2;
     private static final byte ACK = 3;
     private static final byte ERROR = 4;
