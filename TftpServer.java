@@ -6,7 +6,7 @@
     private DatagramPacket req;
     private static final byte RRQ = 1;
     private static final byte DATA = 2;
-    private static final byte ACK = 3;
+    private static final byte ACK = 4;
     private static final byte ERROR = 4;
     private static final int MAX_DISK_SIZE = 131072; // Adjust as needed
 
